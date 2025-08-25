@@ -182,3 +182,4 @@ C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-w
 C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
 C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
+C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppMinhasCompras.sourcelink.json

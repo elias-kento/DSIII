@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-25T11:56:50.571</Modified>
+      <Modified>2025-08-25T13:42:02.307</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppMinhasCompras.dll">
       <PackagePath>MauiAppMinhasCompras.dll</PackagePath>
-      <Modified>2025-08-25T11:56:49.286</Modified>
+      <Modified>2025-08-25T13:42:00.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiAppMinhasCompras.exe</PackagePath>
-      <Modified>2025-08-25T11:56:49.294</Modified>
+      <Modified>2025-08-25T13:42:00.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
