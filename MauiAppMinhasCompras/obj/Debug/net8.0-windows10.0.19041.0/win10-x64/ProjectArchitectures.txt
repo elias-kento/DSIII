@@ -1,0 +1,1 @@
+C:\App\Agenda02_DS3\MauiAppMinhasCompras\MauiAppMinhasCompras\MauiAppMinhasCompras.csproj;x64

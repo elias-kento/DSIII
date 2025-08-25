@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E390FADC-40A4-4FB2-A790-27B62FBD5E79}|MauiAppMinhasCompras\\MauiAppMinhasCompras.csproj|c:\\app\\agenda02_ds3\\mauiappminhascompras\\mauiappminhascompras\\views\\novoproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E390FADC-40A4-4FB2-A790-27B62FBD5E79}|MauiAppMinhasCompras\\MauiAppMinhasCompras.csproj|solutionrelative:mauiappminhascompras\\views\\novoproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E390FADC-40A4-4FB2-A790-27B62FBD5E79}|MauiAppMinhasCompras\\MauiAppMinhasCompras.csproj|c:\\app\\agenda02_ds3\\mauiappminhascompras\\mauiappminhascompras\\views\\novoproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E390FADC-40A4-4FB2-A790-27B62FBD5E79}|MauiAppMinhasCompras\\MauiAppMinhasCompras.csproj|solutionrelative:mauiappminhascompras\\views\\novoproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E390FADC-40A4-4FB2-A790-27B62FBD5E79}|MauiAppMinhasCompras\\MauiAppMinhasCompras.csproj|c:\\app\\agenda02_ds3\\mauiappminhascompras\\mauiappminhascompras\\views\\listaproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E390FADC-40A4-4FB2-A790-27B62FBD5E79}|MauiAppMinhasCompras\\MauiAppMinhasCompras.csproj|solutionrelative:mauiappminhascompras\\views\\listaproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E390FADC-40A4-4FB2-A790-27B62FBD5E79}|MauiAppMinhasCompras\\MauiAppMinhasCompras.csproj|c:\\app\\agenda02_ds3\\mauiappminhascompras\\mauiappminhascompras\\views\\listaproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E390FADC-40A4-4FB2-A790-27B62FBD5E79}|MauiAppMinhasCompras\\MauiAppMinhasCompras.csproj|solutionrelative:mauiappminhascompras\\views\\listaproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NovoProduto.xaml.cs",
+              "DocumentMoniker": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\MauiAppMinhasCompras\\Views\\NovoProduto.xaml.cs",
+              "RelativeDocumentMoniker": "MauiAppMinhasCompras\\Views\\NovoProduto.xaml.cs",
+              "ToolTip": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\MauiAppMinhasCompras\\Views\\NovoProduto.xaml.cs",
+              "RelativeToolTip": "MauiAppMinhasCompras\\Views\\NovoProduto.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T11:53:50.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NovoProduto.xaml",
+              "DocumentMoniker": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\MauiAppMinhasCompras\\Views\\NovoProduto.xaml",
+              "RelativeDocumentMoniker": "MauiAppMinhasCompras\\Views\\NovoProduto.xaml",
+              "ToolTip": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\MauiAppMinhasCompras\\Views\\NovoProduto.xaml",
+              "RelativeToolTip": "MauiAppMinhasCompras\\Views\\NovoProduto.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-25T11:52:15.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListaProduto.xaml.cs",
+              "DocumentMoniker": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\MauiAppMinhasCompras\\Views\\ListaProduto.xaml.cs",
+              "RelativeDocumentMoniker": "MauiAppMinhasCompras\\Views\\ListaProduto.xaml.cs",
+              "ToolTip": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\MauiAppMinhasCompras\\Views\\ListaProduto.xaml.cs",
+              "RelativeToolTip": "MauiAppMinhasCompras\\Views\\ListaProduto.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T11:49:27.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListaProduto.xaml",
+              "DocumentMoniker": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\MauiAppMinhasCompras\\Views\\ListaProduto.xaml",
+              "RelativeDocumentMoniker": "MauiAppMinhasCompras\\Views\\ListaProduto.xaml",
+              "ToolTip": "C:\\App\\Agenda02_DS3\\MauiAppMinhasCompras\\MauiAppMinhasCompras\\Views\\ListaProduto.xaml",
+              "RelativeToolTip": "MauiAppMinhasCompras\\Views\\ListaProduto.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-17T18:44:53.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
