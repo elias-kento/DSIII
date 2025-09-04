@@ -1,10 +1,11 @@
 ﻿using MauiAppMinhasCompras.Helpers;
-namespace MauiAppMinhasCompras
 
+namespace MauiAppMinhasCompras
 {
     public partial class App : Application
     {
         static SQLiteDatabaseHelper _db;
+
         public static SQLiteDatabaseHelper Db
         {
             get
@@ -22,6 +23,7 @@ namespace MauiAppMinhasCompras
                 return _db;
             }
         }
+
         public App()
         {
             InitializeComponent();
