@@ -18,6 +18,8 @@ public partial class ListaProduto : ContentPage
     {
         try
         {
+            await App.Db.EnsureCategoriaColumnAsync();
+
             lista.Clear();
 
             List<Produto> tmp = await App.Db.GetAll();
@@ -48,16 +50,31 @@ public partial class ListaProduto : ContentPage
         try
         {
             string q = e.NewTextValue;
+            lst_produtos.IsRefreshing = true;
 
             lista.Clear();
 
-            List<Produto> tmp = await App.Db.Search(q);
+            string categoria = pk_categoria_filtro?.SelectedItem?.ToString();
+            if (categoria == "(Todas)") categoria = null;
+
+            List<Produto> tmp;
+            if (string.IsNullOrWhiteSpace(q) && categoria == null)
+                tmp = await App.Db.GetAll();
+            else if (categoria == null)
+                tmp = await App.Db.Search(q);
+            else
+                tmp = await App.Db.Search(q, categoria);
 
             tmp.ForEach(i => lista.Add(i));
+
         }
         catch (Exception ex)
         {
             await DisplayAlert("Ops", ex.Message, "OK");
+        }
+        finally
+        {
+            lst_produtos.IsRefreshing = false;
         }
     }
 
@@ -109,4 +126,70 @@ public partial class ListaProduto : ContentPage
             DisplayAlert("Ops", ex.Message, "OK");
         }
     }
+
+    private async void lst_produtos_Refreshing(object sender, EventArgs e)
+    {
+        try
+        {
+            lista.Clear();
+
+            List<Produto> tmp = await App.Db.GetAll();
+
+            tmp.ForEach(i => lista.Add(i));
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Ops", ex.Message, "OK");
+
+        }
+        finally
+        {
+            lst_produtos.IsRefreshing = false;
+        }
+    }
+
+    private async void pk_categoria_filtro_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        try
+        {
+            string q = txt_search?.Text ?? string.Empty;
+            string categoria = pk_categoria_filtro?.SelectedItem?.ToString();
+            if (categoria == "(Todas)") categoria = null;
+
+            lst_produtos.IsRefreshing = true;
+
+            lista.Clear();
+
+            List<Produto> tmp;
+            if (string.IsNullOrWhiteSpace(q) && categoria == null)
+                tmp = await App.Db.GetAll();
+            else if (categoria == null)
+                tmp = await App.Db.Search(q);                 // busca já existente
+            else
+                tmp = await App.Db.Search(q, categoria);      // overload novo
+
+            tmp.ForEach(i => lista.Add(i));
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Ops", ex.Message, "OK");
+        }
+        finally
+        {
+            lst_produtos.IsRefreshing = false;
+        }
+    }
+    private async void ToolbarItem_Relatorio_Clicked(object sender, EventArgs e)
+    {
+        try
+        {
+            await Navigation.PushAsync(new Views.RelatorioCategorias());
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Ops", ex.Message, "OK");
+        }
+    }
+
+
 }

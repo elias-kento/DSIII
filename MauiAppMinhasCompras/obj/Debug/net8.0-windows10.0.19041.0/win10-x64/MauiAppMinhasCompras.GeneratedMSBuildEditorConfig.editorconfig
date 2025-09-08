@@ -69,3 +69,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppMinhasCompras.Views.NovoProduto.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NovoProduto.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NovoProduto.xaml
+
+[C:/App/Agenda02_DS3/MauiAppMinhasCompras/MauiAppMinhasCompras/Views/RelatorioCategorias.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppMinhasCompras.Views.RelatorioCategorias.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RelatorioCategorias.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RelatorioCategorias.xaml

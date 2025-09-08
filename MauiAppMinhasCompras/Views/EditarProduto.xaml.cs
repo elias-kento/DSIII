@@ -20,7 +20,8 @@ public partial class EditarProduto : ContentPage
                 Id = produto_anexado.Id,
                 Descricao = txt_descricao.Text,
                 Quantidade = Convert.ToDouble(txt_quantidade.Text),
-                Preco = Convert.ToDouble(txt_preco.Text)
+                Preco = Convert.ToDouble(txt_preco.Text),
+                Categoria = pk_categoria.SelectedItem?.ToString() ?? "Outros"
             };
 
             await App.Db.Update(p);
@@ -32,4 +33,16 @@ public partial class EditarProduto : ContentPage
             await DisplayAlert("Ops", ex.Message, "OK");
         }
     }
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+        if (BindingContext is Produto p)
+        {
+            var atual = p.Categoria ?? "Outros";
+            var idx = pk_categoria.Items.IndexOf(atual);
+            pk_categoria.SelectedIndex = idx >= 0 ? idx : pk_categoria.Items.IndexOf("Outros");
+        }
+    }
+
 }
